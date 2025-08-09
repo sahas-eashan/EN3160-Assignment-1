@@ -16,8 +16,6 @@ def my_hist_equalization(img):
 
 # Load grayscale image
 img = cv.imread("a1images/shells.tif", cv.IMREAD_GRAYSCALE)
-if img is None:
-    raise FileNotFoundError("Image not found. Check file path.")
 
 # Apply histogram equalization
 img_eq = my_hist_equalization(img)
