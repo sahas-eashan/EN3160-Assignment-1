@@ -5,14 +5,13 @@ import os
 
 
 def my_hist_equalization(img):
-    hist, _ = np.histogram(img.flatten(), bins=256, range=[0, 256])
+    L = 256
+    M, N = img.shape
+    hist = cv.calcHist([img], [0], None, [L], [0, L])
     cdf = hist.cumsum()
-    cdf_masked = np.ma.masked_equal(cdf, 0)
-    cdf_masked = (
-        (cdf_masked - cdf_masked.min()) * 255 / (cdf_masked.max() - cdf_masked.min())
-    )
-    cdf_final = np.ma.filled(cdf_masked, 0).astype("uint8")
-    return cdf_final[img]
+
+    t = np.array([(L - 1) / (M * N) * cdf[K] for K in range(L)]).astype("uint8")
+    return t[img]
 
 
 # Load grayscale image
