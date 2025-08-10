@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754808844.60328 "c:/Users/Cyborg/Desktop/EN3160-Assignment-1/main.tex" "main.pdf" "main" 1754808858.66813 0
+["pdflatex"] 1754811793.51387 "c:/Users/Cyborg/Desktop/EN3160-Assignment-1/main.tex" "main.pdf" "main" 1754811809.61184 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -64,10 +64,10 @@
   "C:/Users/Cyborg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754795488 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Cyborg/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754795149 24215234 e6325167d9141aa1c84f09a724d32938 ""
   "C:/Users/Cyborg/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1740138435 31715 19e60610b63819fe670dfa1cd84a4e94 ""
-  "c:/Users/Cyborg/Desktop/EN3160-Assignment-1/main.tex" 1754808829 17298 9262bb6b685aa7b40332596ecacce2da ""
+  "c:/Users/Cyborg/Desktop/EN3160-Assignment-1/main.tex" 1754811792 18129 f4172002e23aef693f4db2a2fd315b88 ""
   "image.png" 1754796534 147990 ae8609f49d471905cd04bc6aea4ec3c7 ""
-  "main.aux" 1754808858 4058 42704fa075d0e873da8800338c357079 "pdflatex"
-  "main.tex" 1754808829 17298 9262bb6b685aa7b40332596ecacce2da ""
+  "main.aux" 1754811809 4343 842b504d4f96e35e96f4044a16223c71 "pdflatex"
+  "main.tex" 1754811792 18129 f4172002e23aef693f4db2a2fd315b88 ""
   "task1/original.png" 1754702221 267091 10f93d0f4c95ae4c722a2fb960fec03c ""
   "task1/transformation_curve.png" 1754702218 93372 92680a72185c3d4ab1ad854276aca075 ""
   "task1/transformed.png" 1754702221 292825 5fcc12969fb35aa6eef52bc8bed46423 ""
@@ -92,7 +92,11 @@
   "task6/1_hsv_planes.png" 1754722413 945388 ad5c6aef58fae3ab29f654130ba2de67 ""
   "task6/2_mask.png" 1754722416 56154 e20f0f5ca055351116babdabb8998a20 ""
   "task6/3_foreground.png" 1754722417 842289 872c56ced9ab83eaae8ac3b75efd4a89 ""
+  "task6/4_original.png" 1754722417 954116 4e9c9a3afe4ca7729236353c845a4729 ""
   "task6/5_result.png" 1754722418 1034158 923fe7cd1d3aecafdaa6ad19aa462df0 ""
+  "task6/6_histogram.png" 1754722419 65746 f2ea97794f268052d5b7a1b3229c5daa ""
+  "task6/7_cdf.png" 1754722419 90324 a52dabf3078e74e3ca5e01f26e240d12 ""
+  "task6/8_histogram_eq.png" 1754722420 67930 9a5211be40aabb9482b3452d9688af21 ""
   "task7/sobel2D_filtered.png" 1754739377 444835 cb6fb405f88c051c67ddd798fd2c0e8d ""
   "task7/sobel_combined_filtered.png" 1754739379 941333 6145d8692461402907a593540f7efc27 ""
   "task7/sobel_custom_filtered.png" 1754739379 446538 3b16562dad741c48494233cca716d444 ""

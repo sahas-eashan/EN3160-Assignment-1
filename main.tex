@@ -63,7 +63,7 @@
 \end{titlepage}
 
 \section*{GitHub Repository}
-Link to GitHub repository: \url{https://github.com/[your-username]/en3160}
+Link to GitHub repository: \url{https://github.com/sahas-eashan/EN3160-Assignment-1}
 
 \section{Question 1}
 The given intensity transformation can be realized using piecewise linear segments. The transformation enhances mid-intensity pixels while keeping low and high intensity pixels relatively unchanged.
@@ -249,7 +249,7 @@ img_enh = cv.cvtColor(hsv_enh, cv.COLOR_HSV2BGR)
     \end{subfigure}
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{task4/enhanced.png}
-        \caption{Enhanced result (a = 0.6)}
+        \caption{Enhanced result (a = 0.65)}
     \end{subfigure}
     \caption{Vibrance enhancement results}
 \end{figure}
@@ -337,12 +337,32 @@ background = cv.bitwise_and(img_bgr, img_bgr, mask=cv.bitwise_not(mask))
 final_img_bgr = cv.add(cv.cvtColor(background, cv.COLOR_BGR2RGB), modified_fg)
 \end{lstlisting}
 
+
+\begin{figure}
+    \centering
+        \includegraphics[width=\textwidth]{task6/1_hsv_planes.png}
+        \caption{HSV planes}
+\end{figure}
+
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.24\textwidth}
-        \includegraphics[width=\textwidth]{task6/1_hsv_planes.png}
-        \caption{HSV planes}
+        \includegraphics[width=\textwidth]{task6/6_histogram.png}
+        \caption{original histogram }
     \end{subfigure}
+    \begin{subfigure}{0.24\textwidth}
+        \includegraphics[width=\textwidth]{task6/7_cdf.png}
+        \caption{Original CDF}
+    \end{subfigure}
+    \begin{subfigure}{0.24\textwidth}
+        \includegraphics[width=\textwidth]{task6/8_histogram_eq.png}
+        \caption{equalized histogram}
+    \end{subfigure}
+    \caption{Foreground histogram equalization process}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}{0.24\textwidth}
         \includegraphics[width=\textwidth]{task6/2_mask.png}
         \caption{Foreground mask}
@@ -350,6 +370,10 @@ final_img_bgr = cv.add(cv.cvtColor(background, cv.COLOR_BGR2RGB), modified_fg)
     \begin{subfigure}{0.24\textwidth}
         \includegraphics[width=\textwidth]{task6/3_foreground.png}
         \caption{Extracted foreground}
+    \end{subfigure}
+    \begin{subfigure}{0.24\textwidth}
+        \includegraphics[width=\textwidth]{task6/4_original.png}
+        \caption{Original image}
     \end{subfigure}
     \begin{subfigure}{0.24\textwidth}
         \includegraphics[width=\textwidth]{task6/5_result.png}
@@ -363,39 +387,56 @@ final_img_bgr = cv.add(cv.cvtColor(background, cv.COLOR_BGR2RGB), modified_fg)
 \section{Question 7}
 Sobel filtering was implemented using three different approaches: OpenCV's filter2D, custom 2D convolution, and separable convolution.
 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{task7/sobel2D_filtered.png}
+        \caption{OpenCV filter2D result}
+    \end{subfigure}
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{task7/sobel_custom_filtered.png}
+        \caption{Custom implementation}
+    \end{subfigure}
+    \caption{Sobel filtering comparison}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{task7/sobel_combined_filtered.png}
+    \caption{Separable convolution}
+\end{figure}
+
+
 \begin{lstlisting}[caption=Custom Sobel filtering implementation]
-def apply_sobel_filter(image, kernel):
-    rows, cols = image.shape
-    filtered = np.zeros_like(image, dtype=np.float64)
-    
-    for i in range(1, rows-1):
-        for j in range(1, cols-1):
-            region = image[i-1:i+2, j-1:j+2]
-            filtered[i, j] = np.sum(region * kernel)
-    
-    return np.clip(np.abs(filtered), 0, 255).astype(np.uint8)
+def sobel_filter(img, filter):
+    """Apply Sobel filter to an image."""
+    rows, cols = img.shape
+    filtered_img = np.zeros_like(img, dtype=np.float64)
+
+    for i in range(1, rows - 1):
+        for j in range(1, cols - 1):
+            region = img[i - 1 : i + 2, j - 1 : j + 2]
+            filtered_img[i, j] = np.sum(region * filter)
+
+    return filtered_img
 
 # Sobel kernels
 sobel_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
 sobel_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
-\end{lstlisting}
+# Separable kernels
+sobel_x_vertical = np.array([[1], [2], [1]])
+sobel_x_horizontal = np.array([[1, 0, -1]])
 
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}{0.32\textwidth}
-        \includegraphics[width=\textwidth]{task7/sobel2D_filtered.png}
-        \caption{OpenCV filter2D result}
-    \end{subfigure}
-    \begin{subfigure}{0.32\textwidth}
-        \includegraphics[width=\textwidth]{task7/sobel_custom_filtered.png}
-        \caption{Custom implementation}
-    \end{subfigure}
-    \begin{subfigure}{0.32\textwidth}
-        \includegraphics[width=\textwidth]{task7/sobel_combined_filtered.png}
-        \caption{Separable convolution}
-    \end{subfigure}
-    \caption{Sobel filtering comparison}
-\end{figure}
+sobel_y_vertical = np.array([[1], [0], [-1]])
+sobel_y_horizontal = np.array([[1, 2, 1]])
+
+x1 = cv.filter2D(einstein, cv.CV_64F, sobel_x_horizontal)
+x2 = cv.filter2D(x1, cv.CV_64F, sobel_x_vertical)
+
+y1 = cv.filter2D(einstein, cv.CV_64F, sobel_y_vertical)
+y2 = cv.filter2D(y1, cv.CV_64F, sobel_y_horizontal)
+\end{lstlisting}
 
 \textbf{Interpretation:} All three approaches produce similar edge detection results, with separable convolution being computationally more efficient.
 
@@ -403,60 +444,64 @@ sobel_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
 Image zooming was implemented using both nearest neighbor and bilinear interpolation methods.
 
 \begin{lstlisting}[caption=Image zooming implementation]
-def zoom_image(img, scale, method='bilinear'):
-    if method == 'nearest':
-        return cv.resize(img, None, fx=scale, fy=scale, 
-                        interpolation=cv.INTER_NEAREST)
-    elif method == 'bilinear':
-        return cv.resize(img, None, fx=scale, fy=scale, 
-                        interpolation=cv.INTER_LINEAR)
+# zoom the image with given scale (s)
+def zoom_cv(img, s: float, method: str = "nearest"):
+    interp = cv.INTER_NEAREST if method == "nearest" else cv.INTER_LINEAR  # bilinear
+    h, w = img.shape[:2]
+    out = cv.resize(img, None, fx=s, fy=s, interpolation=interp)
+    return out
 
 # Calculate normalized SSD for comparison
-def calculate_ssd(img1, img2):
-    diff = img1.astype(float) - img2.astype(float)
-    ssd = np.sum(diff**2)
-    return ssd / (img1.shape[0] * img1.shape[1])
+def normalized_ssd(A, B, max_val=255.0):
+    if A.shape == B.shape:
+        ssd = np.sum((A - B) ** 2)
+        return float(ssd / A.size)
+    else:
+        print("A and B must have the same shape")
+        return None
 \end{lstlisting}
 
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{task8/comparison_nearest_ssd_11_90201.png}
-        \caption{Nearest neighbor comparison (SSD: 11.90201)}
+        \caption{Nearest neighbor comparison}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{task8/comparison_nearest_ssd_31_28432.png}
-        \caption{Bilinear comparison (SSD: 31.28432)}
+        \caption{Bilinear comparison}
     \end{subfigure}
     \caption{Image zooming results with SSD values}
 \end{figure}
 
-\textbf{Interpretation:} Bilinear interpolation produces smoother results compared to nearest neighbor, though with slightly higher SSD due to the smoothing effect.
+\textbf{Interpretation:}Bilinear interpolation produces smoother and more visually pleasing results compared to nearest neighbor. The SSD value is slightly lower for bilinear than for nearest neighbor, indicating a closer match to the reference image.
+
+\newpage
 
 \section{Question 9}
 GrabCut algorithm was used for foreground-background segmentation followed by selective background blurring.
 
 \begin{lstlisting}[caption=GrabCut segmentation and background blur]
-# Initialize GrabCut
+# GrabCut segmentation
 mask = np.zeros(img.shape[:2], np.uint8)
-bgd_model = np.zeros((1, 65), np.float64)
-fgd_model = np.zeros((1, 65), np.float64)
+bgdModel = np.zeros((1, 65), np.float64)
+fgdModel = np.zeros((1, 65), np.float64)
+rect = (50, 100, 550, 550)
 
-# Define rectangle around flower
-rect = (50, 100, 550, 490)
-cv.grabCut(img, mask, rect, bgd_model, fgd_model, 5, cv.GC_INIT_WITH_RECT)
+cv.grabCut(img, mask, rect, bgdModel, fgdModel, 5, cv.GC_INIT_WITH_RECT)
 
-# Extract foreground and background
-mask2 = np.where((mask == 2) | (mask == 0), 0, 1).astype('uint8')
+# Convert mask to binary foreground/background
+mask2 = np.where((mask == 2) | (mask == 0), 0, 1).astype("uint8")
 foreground = img * mask2[:, :, np.newaxis]
+background = img * (1 - mask2[:, :, np.newaxis])
 
-# Apply Gaussian blur to background
-background_blurred = cv.GaussianBlur(img, (21, 21), 0)
-background_only = background_blurred * (1 - mask2[:, :, np.newaxis])
+# Blur background
+blurred_bg = cv.GaussianBlur(background, (51, 51), 0)
+enhanced_img = cv.add(foreground, blurred_bg)
 
-# Combine foreground with blurred background
-result = foreground + background_only
+# Convert mask to 3-channel for visualization
+mask_vis = cv.cvtColor(mask2 * 255, cv.COLOR_GRAY2BGR)
 \end{lstlisting}
 
 \begin{figure}[H]
@@ -468,8 +513,5 @@ result = foreground + background_only
 \textbf{Interpretation:} The background appears dark near the flower edges because the Gaussian blur averages neighboring pixels, and pixels replaced by zero (from foreground extraction) contribute to this darkening effect at the boundaries.
 
 \textbf{Reason for dark background at flower edges:} When applying Gaussian blur to the background, the kernel averages surrounding pixels. Near the flower edges, some of these pixels have been set to zero during foreground extraction, causing the averaged values to be darker than the original background pixels.
-
-\section{Conclusion}
-This assignment successfully demonstrated various image processing techniques including intensity transformations, histogram operations, filtering, and segmentation. Each method showed distinct characteristics and applications in enhancing different aspects of digital images. The implementation of both built-in and custom algorithms provided deeper understanding of the underlying mathematical concepts.
 
 \end{document}
