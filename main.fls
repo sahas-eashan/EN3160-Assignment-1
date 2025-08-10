@@ -1,0 +1,362 @@
+PWD c:\Users\Cyborg\Desktop\EN3160-Assignment-1
+INPUT C:\Users\Cyborg\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Cyborg\Desktop\EN3160-Assignment-1\main.tex
+OUTPUT main.log
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Cyborg\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\Cyborg\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\image.png
+INPUT .\image.png
+INPUT .\image.png
+INPUT .\image.png
+OUTPUT main.pdf
+INPUT .\image.png
+INPUT .\image.png
+INPUT .\image.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Cyborg\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT .\task1\transformation_curve.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\original.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT .\task1\transformed.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter_curve.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\white_matter.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter_curve.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task2\gray_matter.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\original_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\gamma_corrected_image.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_original.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\L_plane_histogram_corrected.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_original.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task3\RGB_histogram_corrected.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\hsv_planes.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\transform_curve.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\original.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task4\enhanced.png
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\shells.jpg
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\2_equalized_image.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\3_original_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task5\4_equalized_histogram.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\1_hsv_planes.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\2_mask.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\3_foreground.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task6\5_result.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel2D_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_custom_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task7\sobel_combined_filtered.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_11_90201.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task8\comparison_nearest_ssd_31_28432.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT .\task9\q9_outputs.png
+INPUT main.aux
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
